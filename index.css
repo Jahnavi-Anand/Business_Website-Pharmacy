@@ -29,7 +29,7 @@ header {
 }
 
 .logo img {
-    max-width: 150px; /* Adjust size as needed */
+    max-width: 150px; 
 }
 
 .ribbon {
@@ -46,28 +46,28 @@ header {
 .ribbon ul li {
     display: inline;
     margin-right: 20px;
-    position: relative; /* Add relative positioning for pseudo-element */
+    position: relative; 
 }
 
 .ribbon ul li a {
     text-decoration: none;
     color: #333;
-    position: relative; /* Add relative positioning */
+    position: relative; 
 }
 
 .ribbon ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #00bfff; /* Light blue color */
+    background: #00bfff; 
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: width 0.5s; /* Smooth transition */
+    transition: width 0.5s; 
 }
 
 .ribbon ul li a:hover::after {
-    width: 100%; /* Expand width on hover */
+    width: 100%; 
 }
 
 header .ribbon .active{
@@ -97,7 +97,7 @@ header .ribbon .active{
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+    backdrop-filter: blur(10px); 
 }
 
 .intro {
@@ -133,11 +133,11 @@ i{
 
 .services {
     padding-top: 50px;
-    text-align: center; /* Center the section headings */
-    position: relative; /* Position relative for absolute positioning */
-    background-image: url('img/bgimg.jpg'); /* Add the blurred background image */
-    background-size: cover; /* Cover the entire container */
-    background-position: center; /* Center the background image */
+    text-align: center; 
+    position: relative; 
+    background-image: url('img/bgimg.jpg'); 
+    background-size: cover; 
+    background-position: center; 
 }
 
 .overlay {
@@ -146,7 +146,7 @@ i{
     left: 0;
     width: 100%;
     height: 100%;
-    backdrop-filter: blur(10px); /* Adjust blur intensity as needed */
+    backdrop-filter: blur(10px); 
 }
 
 .section {
@@ -154,12 +154,12 @@ i{
 }
 
 .section-heading {
-    color: #fff; /* Set color for section headings */
+    color: #fff; 
     margin-bottom: 30px;
 }
 
 .subsection-heading {
-    color: #fff; /* Set color for subsection headings */
+    color: #fff; 
 }
 
 .service-item {
@@ -187,7 +187,7 @@ i{
 
 .service-item h4,
 .service-item p {
-    color: #fff; /* Set color for service item text */
+    color: #fff; 
     text-align: center;
     width: 100%;
     margin: 0;
@@ -236,14 +236,14 @@ i{
     }
     
     .ribbon ul li {
-        width: 100%; /* Ensure each list item occupies the full width */
+        width: 100%; 
     }
     
     .ribbon ul li a {
         text-decoration: none;
         color: #fff;
-        padding: 10px 0; /* Add padding for better spacing */
-        display: block; /* Ensure each item is displayed as a block element */
+        padding: 10px 0; 
+        display: block; 
     }
     
 
