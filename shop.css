@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff; /* Set default font color to white */
+    color: #fff; 
 }
 
 /* Basic styling */
@@ -48,24 +48,24 @@ header {
 .ribbon ul li {
     display: inline;
     margin-right: 20px;
-    position: relative; /* Add relative positioning for pseudo-element */
+    position: relative; 
 }
 
 .ribbon ul li a {
     text-decoration: none;
     color: #333;
-    position: relative; /* Add relative positioning */
+    position: relative; 
 }
 
 .ribbon ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #00bfff; /* Light blue color */
+    background: #00bfff; 
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: width 0.5s; /* Smooth transition */
+    transition: width 0.5s; 
 }
 
 .ribbon ul li a:hover::after {
@@ -282,7 +282,7 @@ footer .col:nth-child(4) {
 
 .copyright {
     text-align: center;
-    width: 100%; /* Ensure full width */
+    width: 100%; 
 }
 
 footer .follow i:hover, a:hover{
@@ -331,14 +331,14 @@ i{
     }
     
     .ribbon ul li {
-        width: 100%; /* Ensure each list item occupies the full width */
+        width: 100%; 
     }
     
     .ribbon ul li a {
         text-decoration: none;
         color: #fff;
-        padding: 10px 0; /* Add padding for better spacing */
-        display: block; /* Ensure each item is displayed as a block element */
+        padding: 10px 0; 
+        display: block; 
     }
     
 
