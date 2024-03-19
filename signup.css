@@ -110,7 +110,7 @@ header .ribbon .active{
     border-radius: 5px;
     cursor: pointer;
     display: block;
-    margin: 0 auto; /* Center the button */
+    margin: 0 auto; 
 }
 
 .btn-primary:hover {
@@ -169,7 +169,7 @@ i{
     }
     
     .ribbon ul li {
-        width: 100%; /* Ensure each list item occupies the full width */
+        width: 100%; 
     }
     
     .ribbon ul li a {
