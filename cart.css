@@ -47,24 +47,24 @@ header {
 .ribbon ul li {
     display: inline;
     margin-right: 20px;
-    position: relative; 
+    position: relative; /* Add relative positioning for pseudo-element */
 }
 
 .ribbon ul li a {
     text-decoration: none;
     color: #333;
-    position: relative; 
+    position: relative; /* Add relative positioning */
 }
 
 .ribbon ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #00bfff; 
+    background: #00bfff; /* Light blue color */
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: width 0.5s; 
+    transition: width 0.5s; /* Smooth transition */
 }
 
 .ribbon ul li a:hover::after {
@@ -91,6 +91,12 @@ header .ribbon .active{
     color: #fff;
 }
 
+#hero h2{
+    background: -webkit-linear-gradient(yellow, violet) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 #hero p{
     color: #fff;
 }
@@ -104,8 +110,11 @@ header .ribbon .active{
     color: #00bfff;
 }
 
-#hero h1, h2{
+#hero h1{
     color: bisque;
+    padding-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
 }
 
 .section-p1{
@@ -292,14 +301,14 @@ i{
     }
     
     .ribbon ul li {
-        width: 100%; 
+        width: 100%; /* Ensure each list item occupies the full width */
     }
     
     .ribbon ul li a {
         text-decoration: none;
         color: #fff;
-        padding: 10px 0; 
-        display: block; 
+        padding: 10px 0; /* Add padding for better spacing */
+        display: block; /* Ensure each item is displayed as a block element */
     }
     
 
