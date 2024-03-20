@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff; 
+    color: #fff; /* Set default font color to white */
 }
 
 /* Basic styling */
@@ -48,24 +48,24 @@ header {
 .ribbon ul li {
     display: inline;
     margin-right: 20px;
-    position: relative; 
+    position: relative; /* Add relative positioning for pseudo-element */
 }
 
 .ribbon ul li a {
     text-decoration: none;
     color: #333;
-    position: relative; 
+    position: relative; /* Add relative positioning */
 }
 
 .ribbon ul li a::after {
     content: '';
     width: 0;
     height: 3px;
-    background: #00bfff; 
+    background: #00bfff; /* Light blue color */
     position: absolute;
     left: 0;
     bottom: -6px;
-    transition: width 0.5s; 
+    transition: width 0.5s; /* Smooth transition */
 }
 
 .ribbon ul li a:hover::after {
@@ -91,9 +91,12 @@ header .ribbon .active{
     padding-bottom: 15px;
 }
 
-#hero h1, h2{
-    color: bisque;
+#hero h2{
+    background: -webkit-linear-gradient(yellow, violet) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
+
 
 #hero button{
     background-color: transparent;
@@ -282,7 +285,7 @@ footer .col:nth-child(4) {
 
 .copyright {
     text-align: center;
-    width: 100%; 
+    width: 100%; /* Ensure full width */
 }
 
 footer .follow i:hover, a:hover{
@@ -331,14 +334,14 @@ i{
     }
     
     .ribbon ul li {
-        width: 100%; 
+        width: 100%; /* Ensure each list item occupies the full width */
     }
     
     .ribbon ul li a {
         text-decoration: none;
         color: #fff;
-        padding: 10px 0; 
-        display: block; 
+        padding: 10px 0; /* Add padding for better spacing */
+        display: block; /* Ensure each item is displayed as a block element */
     }
     
 
